@@ -1,6 +1,6 @@
 # ResNet on Cifar10 dataset
 
-Implementation of ResNet from scratch in Keras based on the original paper ***Deep Residual Learning for Image Recognition by Kaiming He, Xiangyu Zhang , Shaoqing Ren and Jian Sun, 2015 on the cifar10 dataset***. The network has **6n + 2** layers. The model trained in the attached notebook has **20 layers (n = 3)**. 
+Implementation of ResNet from scratch in Keras based on the original paper ***[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) by Kaiming He, Xiangyu Zhang , Shaoqing Ren and Jian Sun, 2015 on the cifar10 dataset***. The network has **6n + 2** layers. The model trained in the attached notebook has **20 layers (n = 3)**. 
 
 ## Data Augmentation
 
@@ -12,4 +12,13 @@ The model is trained using ***Stochastic Gradient Descent*** with an **initial l
 
 ## Results
 
-The model achieved **98.79% train accuracy** and **90.85% test accuracy**. **Automobiles have the highest f1-score of 0.96 while cats have the lowest f1-score of 0.80**
+The model achieved **98.79% train accuracy** and **90.85% test accuracy**. Automobiles have the highest f1-score of 0.96 while cats have the lowest f1-score of 0.80.
+
+## Dataset
+
+***[Cifar10](https://www.cs.toronto.edu/~kriz/cifar.html)***
+
+## Citations
+
+A. Krizhevsky. Learning multiple layers of features from tiny images. Tech Report, 2009.
+He, Kaiming & Zhang, Xiangyu & Ren, Shaoqing & Sun, Jian. (2016). Deep Residual Learning for Image Recognition. 770-778. 10.1109/CVPR.2016.90. 
