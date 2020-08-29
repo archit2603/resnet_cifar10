@@ -8,7 +8,7 @@ The data is first normalized. **4 pixels are padded on each side** of the image 
 
 ## Training
 
-The model is trained using ***Stochastic Gradient Descent*** with an **initial learning rate of 0.1**. The model is trained for **200 epochs**. The learning rate is divided by 0.1 (**factor = 0.1**) whenever the validation accuracy doesn't increase by atleast 0.01 percent (**min_delta = 0.0001**) for 10 epochs(**patience = 10**). ***ModelCheckpoint*** is used to save the model with the **highest validation accuracy**. Training is stopped when when the validation accuracy doesn't increase by atleast 0.01 percent (**min_delta = 0.0001**) for 25 epochs (**patience = 25**).
+The model is trained using ***Stochastic Gradient Descent*** with an **initial learning rate of 0.1**. The model is trained for **200 epochs** with **batch size = 32**. The learning rate is divided by 0.1 (**factor = 0.1**) whenever the validation accuracy doesn't increase by atleast 0.01 percent (**min_delta = 0.0001**) for 10 epochs(**patience = 10**). ***ModelCheckpoint*** is used to save the model with the **highest validation accuracy**. Training is stopped when when the validation accuracy doesn't increase by atleast 0.01 percent (**min_delta = 0.0001**) for 25 epochs (**patience = 25**).
 
 ## Results
 
