@@ -18,7 +18,7 @@ The model achieved **98.79% train accuracy** and **90.85% test accuracy**. Autom
 
 ***[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)***
 
-## Citations
+## References
 
 [1] He, Kaiming & Zhang, Xiangyu & Ren, Shaoqing & Sun, Jian. (2016). Deep Residual Learning for Image Recognition. 770-778. 10.1109/CVPR.2016.90. 
 [2] A. Krizhevsky. Learning multiple layers of features from tiny images. Tech Report, 2009.
