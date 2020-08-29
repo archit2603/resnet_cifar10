@@ -1,6 +1,6 @@
-# ResNet on Cifar10 dataset
+# ResNet on CIFAR-10 dataset
 
-Implementation of ResNet from scratch in Keras based on the original paper ***[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) by Kaiming He, Xiangyu Zhang , Shaoqing Ren and Jian Sun, 2015 on the cifar10 dataset***. The network has **6n + 2** layers. The model trained in the attached notebook has **20 layers (n = 3)**. 
+Implementation of ResNet from scratch in Keras based on the original paper ***[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) by Kaiming He, Xiangyu Zhang , Shaoqing Ren and Jian Sun, 2015 on the CIFAR-10 dataset***. The network has **6n + 2** layers. The model trained in the attached notebook has **20 layers (n = 3)**. 
 
 ## Data Augmentation
 
@@ -16,7 +16,7 @@ The model achieved **98.79% train accuracy** and **90.85% test accuracy**. Autom
 
 ## Dataset
 
-***[Cifar10](https://www.cs.toronto.edu/~kriz/cifar.html)***
+***[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)***
 
 ## Citations
 
